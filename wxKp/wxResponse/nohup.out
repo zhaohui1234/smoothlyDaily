@@ -1,0 +1,2380 @@
+Watching for file changes with StatReloader
+[24/Jul/2019 09:36:23] "POST /wx/?signature=a9e3940838233fada04a1f60a1ad9a30b5f561b0&timestamp=1563960983&nonce=687505257&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 0
+[24/Jul/2019 09:36:25] "POST /wx/?signature=965dde75d6707aab6c470f8639645960307f2ada&timestamp=1563960985&nonce=1354672067&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 451
+[24/Jul/2019 09:36:27] "POST /wx/?signature=7146ad0560446a2df6804d8dd70a1ad739870230&timestamp=1563960987&nonce=1117530876&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 451
+[24/Jul/2019 09:36:29] "POST /wx/?signature=d616d71c6880902fcb70999f3d2b8ea1312987f7&timestamp=1563960989&nonce=1277861256&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 09:36:30] "POST /wx/?signature=bb0b0c3a83b819da68e369e3d8ca9a6bc9f5af06&timestamp=1563960990&nonce=440536070&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 0
+[24/Jul/2019 09:36:31] "POST /wx/?signature=a3fb9a5913bd676f536a1fe6780e26b433c738cd&timestamp=1563960991&nonce=1870038427&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 09:36:34] "POST /wx/?signature=43c24112b5b3baf5e2886c8a2ad4a262d0dee03a&timestamp=1563960994&nonce=1390038714&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 09:36:41] "POST /wx/?signature=ecbfa2d35d6bd9b5cde6ad2057d3a902c52a55a2&timestamp=1563961001&nonce=2080070318&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 09:37:05] "POST /wx/?signature=f09dd3960208536dca6e1294a9f4f82722abebcb&timestamp=1563961025&nonce=388796525&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 09:37:06] "POST /wx/?signature=7c5f7797fb6b8e5d1fcc7f6e973244e009519af9&timestamp=1563961026&nonce=331912485&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 09:37:07] "POST /wx/?signature=0b82c83bcf4996eb25a970f8d127c37fce0b6edc&timestamp=1563961027&nonce=912116123&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 09:37:20] "POST /wx/?signature=2034570bfacdecaaed8828f5b9e2ac9b19c1ac41&timestamp=1563961040&nonce=2091774908&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 09:57:43] "POST /wx/?signature=0053eef4e5c55d9ceb5063962b926fff9e59533c&timestamp=1563962263&nonce=319020825&openid=o18XxjncMrXtbrJd2jAs_7W5vDYo HTTP/1.1" 200 0
+[24/Jul/2019 10:02:20] "POST /wx/?signature=629e6a521d600e0ddd0d9ab8723821914ce39e53&timestamp=1563962540&nonce=1587722058&openid=o18Xxjni1x-BDw26P_2lHkbVmv58 HTTP/1.1" 200 0
+[24/Jul/2019 10:02:26] "POST /wx/?signature=8f8f7c982f3338977b1ef020d2a5e14dd0919e37&timestamp=1563962546&nonce=221768002&openid=o18XxjlfrOpPt-oNPTwNKQNNbWGY HTTP/1.1" 200 540
+[24/Jul/2019 10:24:50] "POST /wx/?signature=2b84839bdd1555381d21cdc3b891b2fd645c1356&timestamp=1563963890&nonce=513988312&openid=o18Xxjm6EX7T8Zqw0S_yOSp21Fbg HTTP/1.1" 200 0
+[24/Jul/2019 10:30:54] "POST /wx/?signature=45773e192c5cff1e02ff79fbc3c21937eef51e36&timestamp=1563964254&nonce=1467353648&openid=o18XxjsZ3WVJIfHWC8v9tv95U3cE HTTP/1.1" 200 540
+Not Found: /
+[24/Jul/2019 10:47:48] "GET / HTTP/1.1" 404 2028
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 24, 2019 - 09:36:19
+Django version 2.2.3, using settings 'wxResponse.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563960983</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563960985</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 1 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563960987</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 1 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563960989</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563960990</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563960991</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563960994</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563961001</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563961025</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563961026</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563961027</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563961039</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[看看]]></Content>
+<MsgId>22390538636524088</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563961040]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjncMrXtbrJd2jAs_7W5vDYo]]></FromUserName>
+<CreateTime>1563962263</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjni1x-BDw26P_2lHkbVmv58]]></FromUserName>
+<CreateTime>1563962540</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjlfrOpPt-oNPTwNKQNNbWGY]]></FromUserName>
+<CreateTime>1563962545</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm6EX7T8Zqw0S_yOSp21Fbg]]></FromUserName>
+<CreateTime>1563963890</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsZ3WVJIfHWC8v9tv95U3cE]]></FromUserName>
+<CreateTime>1563964254</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjmWjD4zeuAc4I9o6IvJUe6I]]></FromUserName>
+<CreateTime>1563966571</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> [24/Jul/2019 11:09:31] "POST /wx/?signature=f1253ed4b4a1d208e0459aa17aa909ec581fc06b&timestamp=1563966571&nonce=1029177347&openid=o18XxjmWjD4zeuAc4I9o6IvJUe6I HTTP/1.1" 200 0
+[24/Jul/2019 11:09:39] "POST /wx/?signature=2698ff5d4deddbb0c04f1a79fd387fb9d45d049a&timestamp=1563966579&nonce=181971891&openid=o18Xxjhziw3nPhPy6SX10TC1pgIw HTTP/1.1" 200 0
+[24/Jul/2019 11:14:25] "POST /wx/?signature=844f91e080ddb37f03aac551c86394b04c6e503e&timestamp=1563966865&nonce=2107091247&openid=o18XxjgeCh0XyNwEv6eKsUflvCC4 HTTP/1.1" 200 0
+[24/Jul/2019 11:19:19] "POST /wx/?signature=7bd8ca9350f955849f9d83cfc9da861ba30ce0db&timestamp=1563967159&nonce=574662490&openid=o18XxjrLMXs5bjHsV3ctd_Kj-FDs HTTP/1.1" 200 540
+[24/Jul/2019 11:22:23] "POST /wx/?signature=e9b2a40bb42f95d8c0c117e97322b7d9d5265e82&timestamp=1563967343&nonce=810173668&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 11:22:33] "POST /wx/?signature=3c6a0fb0158dbdc54a7792a6d678c636582a31bb&timestamp=1563967353&nonce=561713534&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 11:22:34] "POST /wx/?signature=4fa9a24009a2902a17ad8d201356de264b857373&timestamp=1563967354&nonce=23756207&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 11:22:36] "POST /wx/?signature=a0f02aafcc299c9201a5163573fea27a2683c0ea&timestamp=1563967356&nonce=1204110058&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 11:33:17] "POST /wx/?signature=e3468295342b8b7e671de1a698128ceb844f2f7b&timestamp=1563967997&nonce=499987614&openid=o18Xxju9LaAcs34BLAewycRvn_uE HTTP/1.1" 200 0
+[24/Jul/2019 11:38:18] "POST /wx/?signature=13bc1b4136c70d508d1d0330c656820bfc2ca18d&timestamp=1563968298&nonce=626673327&openid=o18XxjvWAcEWXCTQiZF2Adb8W_7I HTTP/1.1" 200 0
+[24/Jul/2019 12:03:40] "POST /wx/?signature=d8167d77d3afaaccc733589873985e2c1c84380e&timestamp=1563969820&nonce=813784434&openid=o18XxjnCyaOKFRQ20YVf9JjWIinY HTTP/1.1" 200 0
+[24/Jul/2019 12:05:11] "POST /wx/?signature=9a94088e9ad364f91dacb5fd155ce3404fefbd5f&timestamp=1563969911&nonce=892511893&openid=o18Xxjp-Ni9hz1dQqMvUElvBvkJY HTTP/1.1" 200 0
+[24/Jul/2019 12:05:32] "POST /wx/?signature=52eab7ab6bea27ca850c330f2591e3ae77b3691c&timestamp=1563969932&nonce=1852207374&openid=o18XxjvEUYzIoB8R5eFcJgn2UVaU HTTP/1.1" 200 0
+Not Found: /
+[24/Jul/2019 12:07:32] "GET / HTTP/1.1" 404 2031
+[24/Jul/2019 12:08:01] "POST /wx/?signature=8f2be96afedae46b380feab716d4849b8560f299&timestamp=1563970081&nonce=2081163611&openid=o18XxjneMB2aa1gW3MZfpYiqGd8k HTTP/1.1" 200 0
+[24/Jul/2019 12:12:18] "POST /wx/?signature=7284b50cb0f23d948fc463dc36a970c1ed6b1694&timestamp=1563970338&nonce=1597181758&openid=o18XxjkXh-mCGJliy9Iznmm5Ths8 HTTP/1.1" 200 451
+[24/Jul/2019 12:12:18] "POST /wx/?signature=b246aefa1c588009ec8750f5e30f3bc0fc01bdab&timestamp=1563970338&nonce=73212112&openid=o18XxjkXh-mCGJliy9Iznmm5Ths8 HTTP/1.1" 200 0
+[24/Jul/2019 12:13:06] "POST /wx/?signature=b260ccbbc123c1e16d3b1b4d2be694c4d9cde4a9&timestamp=1563970386&nonce=781781602&openid=o18Xxjr3r-Sl8hsGuOZJ8FQ7TY_U HTTP/1.1" 200 0
+[24/Jul/2019 12:19:24] "POST /wx/?signature=263e2784dc1a389e3efe5775fdce01f2f4d4b502&timestamp=1563970764&nonce=950144351&openid=o18XxjrbhMuFWwMrk99i614jfhTI HTTP/1.1" 200 0
+[24/Jul/2019 12:22:04] "POST /wx/?signature=12913f43729bd0d7d87f8f8096b5ec5af71c09fd&timestamp=1563970924&nonce=1832389647&openid=o18XxjpGz5o2XSUINvViKatbGb8k HTTP/1.1" 200 0
+[24/Jul/2019 12:22:11] "POST /wx/?signature=a2d42dd8a8d2664c550d364af82d73f9ba113cb0&timestamp=1563970931&nonce=1123720744&openid=o18XxjlpnV3E85wDx7hJRdXt9xa0 HTTP/1.1" 200 0
+
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjhziw3nPhPy6SX10TC1pgIw]]></FromUserName>
+<CreateTime>1563966579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjgeCh0XyNwEv6eKsUflvCC4]]></FromUserName>
+<CreateTime>1563966865</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjrLMXs5bjHsV3ctd_Kj-FDs]]></FromUserName>
+<CreateTime>1563967159</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563967343</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563967353</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563967354</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563967356</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxju9LaAcs34BLAewycRvn_uE]]></FromUserName>
+<CreateTime>1563967997</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjvWAcEWXCTQiZF2Adb8W_7I]]></FromUserName>
+<CreateTime>1563968298</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjnCyaOKFRQ20YVf9JjWIinY]]></FromUserName>
+<CreateTime>1563969820</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjp-Ni9hz1dQqMvUElvBvkJY]]></FromUserName>
+<CreateTime>1563969911</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjvEUYzIoB8R5eFcJgn2UVaU]]></FromUserName>
+<CreateTime>1563969932</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[MASSSENDJOBFINISH]]></Event>
+<MsgID>1000000780</MsgID>
+<Status><![CDATA[send success]]></Status>
+<TotalCount>17531</TotalCount>
+<FilterCount>17528</FilterCount>
+<SentCount>15528</SentCount>
+<ErrorCount>0</ErrorCount>
+<CopyrightCheckResult><Count>0</Count>
+<ResultList></ResultList>
+<CheckState>0</CheckState>
+</CopyrightCheckResult>
+</xml> 
+msgType is event
+Event type is MASSSENDJOBFINISH
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjneMB2aa1gW3MZfpYiqGd8k]]></FromUserName>
+<CreateTime>1563970081</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjkXh-mCGJliy9Iznmm5Ths8]]></FromUserName>
+<CreateTime>1563970338</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 3 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjkXh-mCGJliy9Iznmm5Ths8]]></FromUserName>
+<CreateTime>1563970338</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjr3r-Sl8hsGuOZJ8FQ7TY_U]]></FromUserName>
+<CreateTime>1563970386</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjrbhMuFWwMrk99i614jfhTI]]></FromUserName>
+<CreateTime>1563970764</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjpGz5o2XSUINvViKatbGb8k]]></FromUserName>
+<CreateTime>1563970924</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjlpnV3E85wDx7hJRdXt9xa0]]></FromUserName>
+<CreateTime>1563970931</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm4hcfdDbOd_au94oWRJOUg]]></FromUserName>
+<CreateTime>1563971920</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> [24/Jul/2019 12:38:40] "POST /wx/?signature=06393d3d055b24b480665737e6dd9d3b54542d2d&timestamp=1563971920&nonce=184458974&openid=o18Xxjm4hcfdDbOd_au94oWRJOUg HTTP/1.1" 200 540
+[24/Jul/2019 12:39:17] "POST /wx/?signature=c57fcaadeae22934776673c13126b0c82fe2b2a3&timestamp=1563971957&nonce=886894226&openid=o18Xxjm4hcfdDbOd_au94oWRJOUg HTTP/1.1" 200 451
+[24/Jul/2019 12:39:26] "POST /wx/?signature=df25c29be3d64459b3cc9bfa521b6b096346098e&timestamp=1563971966&nonce=795390684&openid=o18Xxjm4hcfdDbOd_au94oWRJOUg HTTP/1.1" 200 392
+[24/Jul/2019 12:39:36] "POST /wx/?signature=a49da536abc90cd1a3edecd4257ff80442ec60a1&timestamp=1563971976&nonce=307447788&openid=o18Xxjm4hcfdDbOd_au94oWRJOUg HTTP/1.1" 200 0
+[24/Jul/2019 12:40:07] "POST /wx/?signature=7b77376b3cae564e52dd474d85343df963b2eb53&timestamp=1563972006&nonce=1387140587&openid=o18Xxjk5IJ8R3M7jFjuW8srlqGa0 HTTP/1.1" 200 0
+[24/Jul/2019 12:45:52] "POST /wx/?signature=442ddbcd217a17ab3dde2cb3a9fb44b30ac20244&timestamp=1563972352&nonce=256479514&openid=o18XxjjdzGQGFZpICeUwTGNiBdCg HTTP/1.1" 200 0
+[24/Jul/2019 12:56:07] "POST /wx/?signature=6d841fb4c5bdf8e023ede61b05feafd4c10273b5&timestamp=1563972967&nonce=1854807003&openid=o18XxjiNtycyxpkU-9xrmzMNtJ88 HTTP/1.1" 200 540
+[24/Jul/2019 12:56:09] "POST /wx/?signature=2d740976e12fe4bd480ec20eeaa2142075a7050d&timestamp=1563972969&nonce=1104263178&openid=o18XxjiNtycyxpkU-9xrmzMNtJ88 HTTP/1.1" 200 0
+[24/Jul/2019 12:56:12] "POST /wx/?signature=b862bd029c6a3c1245deaec73df88597879a2138&timestamp=1563972972&nonce=1343716356&openid=o18XxjiNtycyxpkU-9xrmzMNtJ88 HTTP/1.1" 200 451
+[24/Jul/2019 12:57:16] "POST /wx/?signature=e7a14308a6a7efd38fc357cbbd1f4820c9b48303&timestamp=1563973036&nonce=472769012&openid=o18Xxjisf_U8IUcPK4mU6H2x693g HTTP/1.1" 200 0
+[24/Jul/2019 13:02:07] "POST /wx/?signature=f546e5054384d27a85a0833ead0b8c9335c4fbd0&timestamp=1563973327&nonce=2075077101&openid=o18Xxjns3SLiHfNJANs3-UEK7j_g HTTP/1.1" 200 451
+[24/Jul/2019 13:04:50] "POST /wx/?signature=9a18c348264cdd789805b9a680c6b69c5db4988e&timestamp=1563973490&nonce=601603988&openid=o18Xxjo_wGHlUhMR8na7m6K6cpiw HTTP/1.1" 200 0
+[24/Jul/2019 13:07:33] "POST /wx/?signature=d237c6dd79bdc4967f28b69acc2c12526838b8a5&timestamp=1563973653&nonce=1262871966&openid=o18Xxjrkbh7VEP_xMnv7PAv9sT14 HTTP/1.1" 200 0
+[24/Jul/2019 13:19:12] "POST /wx/?signature=8715fd18c3a1d3f81675cdedf7833d6398bada3a&timestamp=1563974352&nonce=451515178&openid=o18XxjrVEWrsD_769e3ZyyuG-jpU HTTP/1.1" 200 0
+[24/Jul/2019 13:22:16] "POST /wx/?signature=e7245e8499161186d9ee0bc823daf6976868cb5b&timestamp=1563974536&nonce=2006491088&openid=o18XxjnFtjAtSjO4QZYqERraA_1w HTTP/1.1" 200 0
+[24/Jul/2019 13:30:43] "POST /wx/?signature=fd98976176c540cc24a89ec2a56973baa6a3fc80&timestamp=1563975043&nonce=1008849097&openid=o18Xxjo23XM42TU-Da3NwVQG09ds HTTP/1.1" 200 0
+[24/Jul/2019 13:30:45] "POST /wx/?signature=4bebd8acd4095a9ceecf8573c1f39cc0a7ef7504&timestamp=1563975045&nonce=309717636&openid=o18Xxjo23XM42TU-Da3NwVQG09ds HTTP/1.1" 200 451
+[24/Jul/2019 13:30:49] "POST /wx/?signature=7a26c24f869902c960572c09c2014e5cb6de0aa6&timestamp=1563975049&nonce=472705903&openid=o18Xxjo23XM42TU-Da3NwVQG09ds HTTP/1.1" 200 0
+[24/Jul/2019 13:32:19] "POST /wx/?signature=8a321ffab01e84272b9d4e16e38e96ea6474583a&timestamp=1563975139&nonce=287507881&openid=o18Xxjms9YsyJDOjZYwlyvKDUfmk HTTP/1.1" 200 0
+
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm4hcfdDbOd_au94oWRJOUg]]></FromUserName>
+<CreateTime>1563971957</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 4 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm4hcfdDbOd_au94oWRJOUg]]></FromUserName>
+<CreateTime>1563971965</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[004]]></Content>
+<MsgId>22390693202797983</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18Xxjm4hcfdDbOd_au94oWRJOUg]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563971966]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm4hcfdDbOd_au94oWRJOUg]]></FromUserName>
+<CreateTime>1563971976</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjk5IJ8R3M7jFjuW8srlqGa0]]></FromUserName>
+<CreateTime>1563972006</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjjdzGQGFZpICeUwTGNiBdCg]]></FromUserName>
+<CreateTime>1563972352</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjiNtycyxpkU-9xrmzMNtJ88]]></FromUserName>
+<CreateTime>1563972967</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjiNtycyxpkU-9xrmzMNtJ88]]></FromUserName>
+<CreateTime>1563972969</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjiNtycyxpkU-9xrmzMNtJ88]]></FromUserName>
+<CreateTime>1563972972</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 5 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjisf_U8IUcPK4mU6H2x693g]]></FromUserName>
+<CreateTime>1563973036</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjns3SLiHfNJANs3-UEK7j_g]]></FromUserName>
+<CreateTime>1563973327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 6 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo_wGHlUhMR8na7m6K6cpiw]]></FromUserName>
+<CreateTime>1563973490</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjrkbh7VEP_xMnv7PAv9sT14]]></FromUserName>
+<CreateTime>1563973653</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjrVEWrsD_769e3ZyyuG-jpU]]></FromUserName>
+<CreateTime>1563974352</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjnFtjAtSjO4QZYqERraA_1w]]></FromUserName>
+<CreateTime>1563974536</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo23XM42TU-Da3NwVQG09ds]]></FromUserName>
+<CreateTime>1563975043</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo23XM42TU-Da3NwVQG09ds]]></FromUserName>
+<CreateTime>1563975045</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 7 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo23XM42TU-Da3NwVQG09ds]]></FromUserName>
+<CreateTime>1563975049</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjms9YsyJDOjZYwlyvKDUfmk]]></FromUserName>
+<CreateTime>1563975139</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo23XM42TU-Da3NwVQG09ds]]></FromUserName>
+<CreateTime>1563975199</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> [24/Jul/2019 13:33:19] "POST /wx/?signature=c87165968ad79c7d82afbe904cb09ea00e9bd962&timestamp=1563975199&nonce=779004366&openid=o18Xxjo23XM42TU-Da3NwVQG09ds HTTP/1.1" 200 0
+[24/Jul/2019 13:36:28] "POST /wx/?signature=877b8a2f11236d4e5e35ce86d78e8739a21ceff6&timestamp=1563975388&nonce=1565906814&openid=o18XxjrK4KEJOcdRK72VqvwWVc_k HTTP/1.1" 200 0
+[24/Jul/2019 13:49:56] "POST /wx/?signature=90be677e259b5f70d4de478d57b8044d01d90421&timestamp=1563976196&nonce=1168146951&openid=o18XxjhDgozUoUuQLolCg-ES2Roo HTTP/1.1" 200 0
+[24/Jul/2019 13:57:00] "POST /wx/?signature=0d3cc40dc8eef37623a9b100f4c542187c42dd93&timestamp=1563976620&nonce=189071812&openid=o18XxjndgnhTVqxBVixa-wVH-lGY HTTP/1.1" 200 0
+[24/Jul/2019 14:04:38] "POST /wx/?signature=be0cbf4e471a2102288f74ba8d77a470c99bfb96&timestamp=1563977078&nonce=1167428649&openid=o18XxjkJafRF_bImKiKvGtiLfKUk HTTP/1.1" 200 0
+Not Found: /wp-config.php
+[24/Jul/2019 14:05:29] "GET /wp-config.php HTTP/1.1" 404 2085
+[24/Jul/2019 14:09:23] "POST /wx/?signature=a0c45fc7bd7237a74d86345d31008454d6d18db1&timestamp=1563977363&nonce=2122195728&openid=o18XxjnnrOq7OP6vF0-2-J2pXK4A HTTP/1.1" 200 451
+[24/Jul/2019 14:09:28] "POST /wx/?signature=ade89e190444264de0d841cedfc338e0f196b4d9&timestamp=1563977368&nonce=1016412730&openid=o18XxjnnrOq7OP6vF0-2-J2pXK4A HTTP/1.1" 200 0
+[24/Jul/2019 14:19:31] "POST /wx/?signature=52d876937191c6e5c16ac7a809c7b38d6d1c01f8&timestamp=1563977971&nonce=1683701742&openid=o18XxjkgjKMjf3t43TrA3kMX87Rk HTTP/1.1" 200 451
+Not Found: /
+[24/Jul/2019 14:29:02] "GET / HTTP/1.1" 404 2031
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jul/2019 14:30:19] "POST /wx/?signature=06de1ec7db5e4e5c760d774fa2b3b41aaae5f02f&timestamp=1563978619&nonce=692451150&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:30:21] "POST /wx/?signature=72842f12158275566f52699a305b76ca6eadf503&timestamp=1563978621&nonce=11330351&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:30:24] "POST /wx/?signature=442ee079b6f802810022db084e71aef0b5002dbb&timestamp=1563978624&nonce=1402774347&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:30:32] "POST /wx/?signature=b178a307b99e3421d470fc6565cb6480581a28ef&timestamp=1563978632&nonce=275892046&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:30:34] "POST /wx/?signature=e695a44ea0bc6e97a8e1200831212b6ef643f5fe&timestamp=1563978634&nonce=303597549&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:30:46] "POST /wx/?signature=62b8d4f36fea3904273bc355a006200c53b136a7&timestamp=1563978646&nonce=1727271893&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:30:59] "POST /wx/?signature=741da176a60fa37f49699126fdb21c06004d0668&timestamp=1563978659&nonce=1409877800&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:31:03] "POST /wx/?signature=f5e8c36aa220226f313b3328e3bae0849a88811e&timestamp=1563978663&nonce=1633929841&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 364
+Watching for file changes with StatReloader
+[24/Jul/2019 14:37:20] "POST /wx/?signature=1d88799d8591f179a5d7b41342b77cdb4d1b1c83&timestamp=1563979040&nonce=1299260327&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 0
+[24/Jul/2019 14:37:31] "POST /wx/?signature=a3e78bc0ec479c8812d0b65ed7a09b6ce28d803e&timestamp=1563979051&nonce=763808677&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 540
+
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjrK4KEJOcdRK72VqvwWVc_k]]></FromUserName>
+<CreateTime>1563975388</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjhDgozUoUuQLolCg-ES2Roo]]></FromUserName>
+<CreateTime>1563976196</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjndgnhTVqxBVixa-wVH-lGY]]></FromUserName>
+<CreateTime>1563976620</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjkJafRF_bImKiKvGtiLfKUk]]></FromUserName>
+<CreateTime>1563977078</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjnnrOq7OP6vF0-2-J2pXK4A]]></FromUserName>
+<CreateTime>1563977363</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 8 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjnnrOq7OP6vF0-2-J2pXK4A]]></FromUserName>
+<CreateTime>1563977368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjkgjKMjf3t43TrA3kMX87Rk]]></FromUserName>
+<CreateTime>1563977971</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 9 
+----------------------------------------
+Exception happened during processing of request from ('101.251.242.238', 39053)
+----------------------------------------
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978619</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978634</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978646</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978659</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你]]></Content>
+<MsgId>22390792657274651</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563978659]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563978663</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[全域科普]]></Content>
+<MsgId>22390792915614661</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+The user firs request for number 2 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563978663]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[您已经领取活动编码，您的活动编码为 002 ]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563979040</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563979051</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjsuAHrXe0zPsopj1ZGEPHBY]]></FromUserName>
+<CreateTime>1563979057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> [24/Jul/2019 14:37:37] "POST /wx/?signature=c7f5e1825c0d728bdfe47323c6a17a32df5b21be&timestamp=1563979057&nonce=459968517&openid=o18XxjsuAHrXe0zPsopj1ZGEPHBY HTTP/1.1" 200 451
+[24/Jul/2019 14:38:28] "POST /wx/?signature=aa19108ca004d5e3d3e90a7f27acdea18bc073a3&timestamp=1563979107&nonce=317896196&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:29] "POST /wx/?signature=e615ff9369f6246c105b38f6671430c83992914b&timestamp=1563979109&nonce=469159999&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=6db31fd850bbdfa5d89cf06b4b993f1f062c80e2&timestamp=1563979110&nonce=771641463&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=c9aec26a006812cd4c529c7c52139b21ebd6dd19&timestamp=1563979110&nonce=955457000&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=82b9c984dac6a1070015a53498321dd1b48170b6&timestamp=1563979110&nonce=290784896&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=16c6eeff74afd5450a207975f8687548affa3784&timestamp=1563979110&nonce=1942305998&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=a5612f4ed05ab32c4573ad7dc00a409303594572&timestamp=1563979110&nonce=1075408437&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:30] "POST /wx/?signature=c90ab2db8ca1d531e3c6ebaf0c5a11e3ce503851&timestamp=1563979110&nonce=806587585&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:38:31] "POST /wx/?signature=621bc0d99ac818b25c090bb08d98605027edffdb&timestamp=1563979111&nonce=1047779868&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:38:34] "POST /wx/?signature=6a4fe0ce59bb09f4efc94a5e000b9a1d1b06aff9&timestamp=1563979114&nonce=526159919&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:38:40] "POST /wx/?signature=4bac5268be8b2fcd82c417a006d2582202fb4ce5&timestamp=1563979120&nonce=415645035&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:38:49] "POST /wx/?signature=452ec82e017551453d8cc5a9f6f8cce6277544ce&timestamp=1563979129&nonce=1439892195&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:38:51] "POST /wx/?signature=b7c4acb5a22ee419b615f85f147a9494712ed008&timestamp=1563979131&nonce=1943834288&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:38:57] "POST /wx/?signature=5565eca40945ff4f6eec59b69be2acdb3684e83b&timestamp=1563979137&nonce=480544167&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:38:59] "POST /wx/?signature=34e766c6e51561995afe4c207c3d95db0d707b15&timestamp=1563979139&nonce=2024333819&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 364
+
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 1 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979107</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979109</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979111</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979114</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979120</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979129</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[high]]></Content>
+<MsgId>22390795817632897</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979129]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979131</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[high]]></Content>
+<MsgId>22390795138266020</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979131]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979136</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[hhg点击右下角的+，可以添加常用短语。]]></Content>
+<MsgId>22390796589469419</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979137]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979139</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[全域科普]]></Content>
+<MsgId>22390798028376620</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+The user firs request for number 2 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979139]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[您已经领取活动编码，您的活动编码为 002 ]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979141</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[科普]]></Content>
+<MsgId>22390797105004303</MsgId>
+</xml> [24/Jul/2019 14:39:01] "POST /wx/?signature=66a7940b924f9c89953eea7bba7502a49e146a0c&timestamp=1563979141&nonce=2043642832&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:39:16] "POST /wx/?signature=98b90f2c526f2eef93a8fc5192718c73cf599f07&timestamp=1563979156&nonce=986436231&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:39:18] "POST /wx/?signature=c6a71dd59c36b7d39c04bd9ab621fefbac10b007&timestamp=1563979158&nonce=869557320&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[24/Jul/2019 14:39:20] "POST /wx/?signature=b67d13c881a741089827a6541edfd948b54f5005&timestamp=1563979160&nonce=1067602948&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 14:39:24] "POST /wx/?signature=99f5823eddd6bf030a150d2cd2d51af84d9398bb&timestamp=1563979163&nonce=1966331466&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[24/Jul/2019 14:39:25] "POST /wx/?signature=bb90691c20993194e6800c1bfa09dc029de98953&timestamp=1563979165&nonce=1995053961&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[24/Jul/2019 15:42:20] "POST /wx/?signature=0c7baef1006c10d68ff788ad72bac8bff78509d8&timestamp=1563982940&nonce=1517786935&openid=o18XxjngUtT6woTFYvCiQklSmO4M HTTP/1.1" 200 0
+[24/Jul/2019 16:07:23] "POST /wx/?signature=c0072b1382260437d05fbe5387f62d34f087aa76&timestamp=1563984443&nonce=758000786&openid=o18XxjvZNswAFLQ9Fps2STRzOPaQ HTTP/1.1" 200 0
+[24/Jul/2019 16:47:34] "POST /wx/?signature=32ecc5b92f0f906160c1441cf63ea8e220ea599f&timestamp=1563986854&nonce=645936597&openid=o18XxjtV6CawPz5m30Dr0IfWVw2M HTTP/1.1" 200 0
+[24/Jul/2019 16:48:53] "POST /wx/?signature=8526e4c85ad7d3c5f96d0c53067e78da351bef59&timestamp=1563986933&nonce=2069084906&openid=o18Xxjo3aEeBTGix-eNeCCtdAAV8 HTTP/1.1" 200 0
+Not Found: /
+[24/Jul/2019 17:10:29] "GET / HTTP/1.1" 404 2028
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[24/Jul/2019 17:14:58] "HEAD /robots.txt HTTP/1.0" 400 58697
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jul/2019 17:14:58] "HEAD /robots.txt HTTP/1.0" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[24/Jul/2019 17:15:44] "POST /wx/?signature=966cd0697f65bba7c878b09731d4e46e21a07b7c&timestamp=1563988544&nonce=1444361827&openid=o18XxjtOZYnIO1_yRN15kd0xMYSA HTTP/1.1" 200 0
+Not Found: /
+[24/Jul/2019 17:21:32] "GET / HTTP/1.1" 404 2031
+[24/Jul/2019 17:33:44] "POST /wx/?signature=f61686aaeeb206457206473e916fc13eb67c2cd1&timestamp=1563989624&nonce=330575022&openid=o18XxjuyeUQK7gB7ZXVgqDZOKs6U HTTP/1.1" 200 0
+[24/Jul/2019 17:38:41] "POST /wx/?signature=7a8dd1fdb4433d6397b5f3833dd08b9637db7b23&timestamp=1563989921&nonce=281478408&openid=o18Xxjjlfy7-crKZZDf4SwvWhGT8 HTTP/1.1" 200 0
+Invalid HTTP_HOST header: 'localhost.localdomain'. You may need to add 'localhost.localdomain' to ALLOWED_HOSTS.
+Bad Request: /
+[24/Jul/2019 18:45:22] "GET / HTTP/1.0" 400 58960
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Jul/2019 18:45:22] "GET / HTTP/1.0" 500 59
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.5/socket.py", line 593, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+Not Found: /
+[24/Jul/2019 19:24:04] "GET / HTTP/1.1" 404 2028
+Not Found: /HNAP1/
+[24/Jul/2019 19:24:04] "GET /HNAP1/ HTTP/1.1" 404 2064
+[24/Jul/2019 19:33:21] "POST /wx/?signature=c7f1326fb015d5572579b3cca17ac6c95c2dfae0&timestamp=1563996801&nonce=1385867502&openid=o18Xxjg66dAbIBAs5JYPzl2OGtoo HTTP/1.1" 200 0
+Internal Server Error: /wx/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 17, in autoResponse
+    return verify(request)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 43, in verify
+    list1.sort()
+TypeError: unorderable types: NoneType() < str()
+[24/Jul/2019 20:26:01] "GET /wx/?signature%3D0c7baef1006c10d68ff788ad72bac8bff78509d8%26timestamp%3D1563982940%26nonce%3D1517786935%26openid%3Do18XxjngUtT6woTFYvCiQklSmO4M HTTP/1.1" 500 66942
+Not Found: /
+[24/Jul/2019 22:08:28] "GET / HTTP/1.1" 404 2028
+[24/Jul/2019 23:07:16] "POST /wx/?signature=476142f10e2f76bcedfd02056028469f6b40190d&timestamp=1564009636&nonce=993736072&openid=o18XxjhPF6ACCWyjcKH09NXT1PM8 HTTP/1.1" 200 0
+[24/Jul/2019 23:16:21] "POST /wx/?signature=2d95aa59aa2432686f81a93b89d6bde796b619a9&timestamp=1564010180&nonce=1856940450&openid=o18Xxjv5WSV3tDWneUGmb3VvDiAo HTTP/1.1" 200 0
+[24/Jul/2019 23:18:49] "POST /wx/?signature=2a35b58f2b1b3b96b61a5fceb4c098e9bc9f6775&timestamp=1564010329&nonce=813813925&openid=o18Xxjmo7Qqrx2C9CJEi8JhuOYvQ HTTP/1.1" 200 0
+
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979141]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979156</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[high]]></Content>
+<MsgId>22390796644812323</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979156]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979158</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[啦啦啦啦啦啦]]></Content>
+<MsgId>22390796691469518</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1563979158]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979160</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979163</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1563979165</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjngUtT6woTFYvCiQklSmO4M]]></FromUserName>
+<CreateTime>1563982940</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjvZNswAFLQ9Fps2STRzOPaQ]]></FromUserName>
+<CreateTime>1563984443</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtV6CawPz5m30Dr0IfWVw2M]]></FromUserName>
+<CreateTime>1563986854</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo3aEeBTGix-eNeCCtdAAV8]]></FromUserName>
+<CreateTime>1563986933</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+----------------------------------------
+Exception happened during processing of request from ('77.247.110.219', 55234)
+----------------------------------------
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtOZYnIO1_yRN15kd0xMYSA]]></FromUserName>
+<CreateTime>1563988544</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjuyeUQK7gB7ZXVgqDZOKs6U]]></FromUserName>
+<CreateTime>1563989624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjjlfy7-crKZZDf4SwvWhGT8]]></FromUserName>
+<CreateTime>1563989921</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+----------------------------------------
+Exception happened during processing of request from ('92.118.160.29', 57737)
+----------------------------------------
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjg66dAbIBAs5JYPzl2OGtoo]]></FromUserName>
+<CreateTime>1563996801</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+verify for the wx
+<WSGIRequest: GET '/wx/?signature%3D0c7baef1006c10d68ff788ad72bac8bff78509d8%26timestamp%3D1563982940%26nonce%3D1517786935%26openid%3Do18XxjngUtT6woTFYvCiQklSmO4M'>
+{'_mutable': False, '_encoding': 'utf-8'}
+b''
+None None None None
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjhPF6ACCWyjcKH09NXT1PM8]]></FromUserName>
+<CreateTime>1564009636</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjv5WSV3tDWneUGmb3VvDiAo]]></FromUserName>
+<CreateTime>1564010180</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjmo7Qqrx2C9CJEi8JhuOYvQ]]></FromUserName>
+<CreateTime>1564010329</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response[24/Jul/2019 23:21:31] "POST /wx/?signature=9609879504b554dc74b9c8159786f2158b545daf&timestamp=1564010491&nonce=57902007&openid=o18XxjmTsgoajw_b71urZHp6xK2U HTTP/1.1" 200 0
+[24/Jul/2019 23:48:13] "POST /wx/?signature=b34286355a088adb32a958d15135f4cd0b570e1a&timestamp=1564012093&nonce=69674413&openid=o18Xxjr2zgJdPACM2PrnQp0uA7co HTTP/1.1" 200 0
+[24/Jul/2019 23:59:40] "POST /wx/?signature=30f46d4fe87ae2820181a6538b5084d101b941fa&timestamp=1564012780&nonce=1779023138&openid=o18XxjujioGegrczWqsstLf5LCUE HTTP/1.1" 200 0
+Internal Server Error: /wx/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 17, in autoResponse
+    return verify(request)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 43, in verify
+    list1.sort()
+TypeError: unorderable types: NoneType() < str()
+[25/Jul/2019 00:09:13] "GET /wx/?signature%3Dc7f1326fb015d5572579b3cca17ac6c95c2dfae0%26timestamp%3D1563996801%26nonce%3D1385867502%26openid%3Do18Xxjg66dAbIBAs5JYPzl2OGtoo HTTP/1.1" 500 66940
+[25/Jul/2019 00:26:30] "POST /wx/?signature=535601ab329a4d7a6a57a1194a80e190343306aa&timestamp=1564014390&nonce=520051871&openid=o18XxjgsHjSALU6jYCQnu7i22sb0 HTTP/1.1" 200 0
+[25/Jul/2019 00:48:30] "POST /wx/?signature=1e6a6fb0c6704e1bf835ec4e719a2560cbc9cdfa&timestamp=1564015710&nonce=2110091056&openid=o18XxjoRqrwEoWUM3Iycq8xp7lX4 HTTP/1.1" 200 451
+[25/Jul/2019 00:55:47] "POST /wx/?signature=e4090a8117ab700e9f53ca97bad4e427e6e56fa5&timestamp=1564016147&nonce=1721280329&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[25/Jul/2019 00:55:48] "POST /wx/?signature=25612e41cfbb97fc8fd291edaa9f80e9e52c04c8&timestamp=1564016148&nonce=292810548&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[25/Jul/2019 00:55:50] "POST /wx/?signature=b95434607211f686e436c01ad661f3336555ffd5&timestamp=1564016150&nonce=579955020&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[25/Jul/2019 00:55:52] "POST /wx/?signature=fdc6429602359cf3c02935998a71b731f1aa0ec1&timestamp=1564016152&nonce=1727608015&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[25/Jul/2019 01:05:25] "POST /wx/?signature=46df8b906c9095ca17f2e4b8fe69b3af30f430f4&timestamp=1564016725&nonce=1589774085&openid=o18XxjjHxY7jD0G5T3rDGp1j2vUU HTTP/1.1" 200 0
+[25/Jul/2019 01:08:13] "POST /wx/?signature=8e9b49a1ebada97bc62f6e0724a97ba589259705&timestamp=1564016893&nonce=2082599611&openid=o18XxjpJapL63c0SbZZuEYFvwFyQ HTTP/1.1" 200 0
+[25/Jul/2019 01:16:38] "POST /wx/?signature=e98ddcfa36ff82632447dd62ec23b2c1721e4271&timestamp=1564017398&nonce=133077301&openid=o18XxjkT2hfhKBl9vQxyBVlLHuKc HTTP/1.1" 200 0
+[25/Jul/2019 01:17:40] "POST /wx/?signature=430b01bc339d268d2854405f8b9e2ee9536b744d&timestamp=1564017460&nonce=306805550&openid=o18XxjoUthC9EN_bSA0F0TJaszQI HTTP/1.1" 200 0
+[25/Jul/2019 01:26:02] "POST /wx/?signature=af3a2c38ecba083ef38e25cc9e872d99c8d0f51c&timestamp=1564017962&nonce=362995187&openid=o18Xxjkeq4BX3R7zPfBA5D25OOSo HTTP/1.1" 200 0
+[25/Jul/2019 01:28:40] "POST /wx/?signature=e351c9f47dc5b9ad185ff5d5e391708e731e5515&timestamp=1564018120&nonce=1705115244&openid=o18XxjiDcwR7tmBXXRq9umEjcLVE HTTP/1.1" 200 0
+[25/Jul/2019 01:32:08] "POST /wx/?signature=f7cc0708590ec80b12486747cc61ab078b865f09&timestamp=1564018328&nonce=731629521&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[25/Jul/2019 01:32:19] "POST /wx/?signature=029acdce8b9153d8ba6d262b741952a7914983f4&timestamp=1564018339&nonce=1053876650&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[25/Jul/2019 01:32:29] "POST /wx/?signature=4f47e1902ac73eabf0bf8c93f334408c39104dce&timestamp=1564018349&nonce=2116417132&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjmTsgoajw_b71urZHp6xK2U]]></FromUserName>
+<CreateTime>1564010491</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjr2zgJdPACM2PrnQp0uA7co]]></FromUserName>
+<CreateTime>1564012093</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjujioGegrczWqsstLf5LCUE]]></FromUserName>
+<CreateTime>1564012780</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+verify for the wx
+<WSGIRequest: GET '/wx/?signature%3Dc7f1326fb015d5572579b3cca17ac6c95c2dfae0%26timestamp%3D1563996801%26nonce%3D1385867502%26openid%3Do18Xxjg66dAbIBAs5JYPzl2OGtoo'>
+{'_mutable': False, '_encoding': 'utf-8'}
+b''
+None None None None
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjgsHjSALU6jYCQnu7i22sb0]]></FromUserName>
+<CreateTime>1564014390</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjoRqrwEoWUM3Iycq8xp7lX4]]></FromUserName>
+<CreateTime>1564015710</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 10 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564016147</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564016148</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564016150</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://mp.weixin.qq.com/mp/homepage?__biz=MjM5ODIwOTQ5NQ==&hid=1&sn=87fa1cc92730ed7533285f0189ab0658&scene=18]]></EventKey>
+<MenuId>437619271</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564016152</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjjHxY7jD0G5T3rDGp1j2vUU]]></FromUserName>
+<CreateTime>1564016725</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjpJapL63c0SbZZuEYFvwFyQ]]></FromUserName>
+<CreateTime>1564016893</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjkT2hfhKBl9vQxyBVlLHuKc]]></FromUserName>
+<CreateTime>1564017398</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjoUthC9EN_bSA0F0TJaszQI]]></FromUserName>
+<CreateTime>1564017460</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjkeq4BX3R7zPfBA5D25OOSo]]></FromUserName>
+<CreateTime>1564017962</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjiDcwR7tmBXXRq9umEjcLVE]]></FromUserName>
+<CreateTime>1564018120</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018328</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018339</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[还是]]></Content>
+<MsgId>22391359580978647</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1564018339]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018358</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event[25/Jul/2019 01:32:38] "POST /wx/?signature=9b641e9bc5cf021e79bb00d7ce2559ebcf777435&timestamp=1564018358&nonce=1392491470&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[25/Jul/2019 01:33:56] "POST /wx/?signature=9a93e316947e4614601e5eaf5587b8ae702e023a&timestamp=1564018436&nonce=2051599652&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[25/Jul/2019 01:34:07] "POST /wx/?signature=471b33b794753d6d92e58bb150ff8271fcb70f3e&timestamp=1564018447&nonce=1854737151&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 392
+[25/Jul/2019 01:36:22] "POST /wx/?signature=123410145d0bc8fe71e28cd9c360af434ac0f945&timestamp=1564018582&nonce=1360888024&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 0
+[25/Jul/2019 01:36:34] "POST /wx/?signature=10878ed6db4dbf5b60a6da94c8d1957a63a707ae&timestamp=1564018594&nonce=1526325298&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 540
+[25/Jul/2019 01:36:37] "POST /wx/?signature=5c933271b37afd56700fb3c10a76b7c66902b77c&timestamp=1564018597&nonce=425280393&openid=o18XxjtuCmwX9_AywnGyqfkUs5xA HTTP/1.1" 200 451
+[25/Jul/2019 01:37:04] "POST /wx/?signature=d443c62db8ae4d97eef09ac93e9b20db99cf811a&timestamp=1564018624&nonce=1517476353&openid=o18Xxjql_hX9BJNyu_idSdR7fnJg HTTP/1.1" 200 451
+[25/Jul/2019 01:37:38] "POST /wx/?signature=7972d8bb05866230135c1ec2894e89ede169185c&timestamp=1564018658&nonce=371804664&openid=o18Xxjql_hX9BJNyu_idSdR7fnJg HTTP/1.1" 200 451
+[25/Jul/2019 01:50:39] "POST /wx/?signature=be8e8dbd2086b1fcc03e2b3e12c3d4fe1227da11&timestamp=1564019439&nonce=361314622&openid=o18XxjgXk9rognJLg4zPsw3y9R0k HTTP/1.1" 200 0
+[25/Jul/2019 01:55:56] "POST /wx/?signature=0a482bed541a385e2bfa0e40a92f01c620c6e0f9&timestamp=1564019756&nonce=1131196811&openid=o18Xxjm1G5w6ycRrtDNt6gH0Uh04 HTTP/1.1" 200 451
+[25/Jul/2019 01:56:00] "POST /wx/?signature=da5f6de7c4dd45f0e5dcea96ec7c2a8bfcd471f1&timestamp=1564019760&nonce=1992142189&openid=o18Xxjm1G5w6ycRrtDNt6gH0Uh04 HTTP/1.1" 200 0
+[25/Jul/2019 02:04:50] "POST /wx/?signature=156f8da027c5f3c4691eb0ec9c0cd0d2e13dc70e&timestamp=1564020290&nonce=719034520&openid=o18Xxjo6uSBJKGTRipvpFO3xfxGY HTTP/1.1" 200 0
+[25/Jul/2019 02:06:51] "POST /wx/?signature=95e118db19283600fbf458ec8ddaf81b8d3a1d70&timestamp=1564020411&nonce=49983859&openid=o18XxjhHoMslN-lIhrwcbqlGfPV8 HTTP/1.1" 200 451
+[25/Jul/2019 02:07:02] "POST /wx/?signature=82d20dfa9c0408c24d3e2f1b0d985db55041f4b1&timestamp=1564020422&nonce=912112119&openid=o18XxjhHoMslN-lIhrwcbqlGfPV8 HTTP/1.1" 200 0
+[25/Jul/2019 02:15:12] "POST /wx/?signature=3d950ec34b8afd3c66be78cfbf8fce0e5fd065ee&timestamp=1564020912&nonce=1367213203&openid=o18XxjnkxJtJG1Y6a2frsDrdSvQ8 HTTP/1.1" 200 0
+[25/Jul/2019 02:42:58] "POST /wx/?signature=4d35b2b368f173af5cfbf45b0d7088d2f1908725&timestamp=1564022578&nonce=292861064&openid=o18Xxjo7nNyg8u2VOAX3uVZ6BReo HTTP/1.1" 200 0
+[25/Jul/2019 02:43:52] "POST /wx/?signature=41f6eccf2423feb4205406a559721f7f7e1c3397&timestamp=1564022632&nonce=1061600808&openid=o18Xxjs00Qjjh1bHt2QgC7wSRzbg HTTP/1.1" 200 0
+[25/Jul/2019 03:17:57] "POST /wx/?signature=5313d957e0b2a75d8e5ce97663c2b7a04409c19d&timestamp=1564024677&nonce=2016086366&openid=o18Xxji_ziZ4BMwvB7kTAb00_ng8 HTTP/1.1" 200 0
+[25/Jul/2019 03:27:23] code 400, message Bad request version ('À(À$À\x14À')
+[25/Jul/2019 03:27:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /
+[25/Jul/2019 03:27:24] "GET / HTTP/1.1" 404 2028
+Not Found: /
+[25/Jul/2019 03:42:16] "GET / HTTP/1.1" 404 2028
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Not Found: /
+[25/Jul/2019 03:46:57] "GET / HTTP/1.1" 404 2031
+Not Found: /
+[25/Jul/2019 04:21:52] "GET / HTTP/1.1" 404 2028
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Internal Server Error: /wx/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 17, in autoResponse
+    return verify(request)
+  File "/home/ubuntu/smoothlyDaily/wxKp/wxResponse/autoResponse/views.py", line 43, in verify
+    list1.sort()
+TypeError: unorderable types: NoneType() < str()
+[25/Jul/2019 04:36:45] "GET /wx/?signature%3D535601ab329a4d7a6a57a1194a80e190343306aa%26timestamp%3D1564014390%26nonce%3D520051871%26openid%3Do18XxjgsHjSALU6jYCQnu7i22sb0 HTTP/1.1" 500 66928
+
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018436</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[高]]></Content>
+<MsgId>22391358261470262</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1564018436]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018446</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[啦啦啦啦啦啦]]></Content>
+<MsgId>22391357841175035</MsgId>
+</xml> 
+msgType is text
+msgType is text 
+reply xml is %s 
+        <xml>
+        <ToUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></ToUserName>
+        <FromUserName><![CDATA[gh_07a2476758a1]]></FromUserName>
+        <CreateTime><![CDATA[1564018447]]></CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[欢迎参加全域科普活动，请您回复“全域科普”，获取活动编码]]></Content>
+        </xml>
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018594</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is subscribe
+ Even subscribe
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjtuCmwX9_AywnGyqfkUs5xA]]></FromUserName>
+<CreateTime>1564018597</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 2 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjql_hX9BJNyu_idSdR7fnJg]]></FromUserName>
+<CreateTime>1564018624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 11 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjql_hX9BJNyu_idSdR7fnJg]]></FromUserName>
+<CreateTime>1564018658</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+The user firs request for number 11 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjgXk9rognJLg4zPsw3y9R0k]]></FromUserName>
+<CreateTime>1564019439</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm1G5w6ycRrtDNt6gH0Uh04]]></FromUserName>
+<CreateTime>1564019756</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 12 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjm1G5w6ycRrtDNt6gH0Uh04]]></FromUserName>
+<CreateTime>1564019760</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://pro.wenjuan.com/s2/5cb8128b7e634b22852f386b/]]></EventKey>
+<MenuId>437619639</MenuId>
+</xml> 
+msgType is event
+Event type is VIEW
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo6uSBJKGTRipvpFO3xfxGY]]></FromUserName>
+<CreateTime>1564020290</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjhHoMslN-lIhrwcbqlGfPV8]]></FromUserName>
+<CreateTime>1564020411</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[V2]]></EventKey>
+</xml> 
+msgType is event
+Event type is CLICK
+Click event
+seq is 13 
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjhHoMslN-lIhrwcbqlGfPV8]]></FromUserName>
+<CreateTime>1564020422</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18XxjnkxJtJG1Y6a2frsDrdSvQ8]]></FromUserName>
+<CreateTime>1564020912</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjo7nNyg8u2VOAX3uVZ6BReo]]></FromUserName>
+<CreateTime>1564022578</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjs00Qjjh1bHt2QgC7wSRzbg]]></FromUserName>
+<CreateTime>1564022632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxji_ziZ4BMwvB7kTAb00_ng8]]></FromUserName>
+<CreateTime>1564024677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml> 
+msgType is event
+Event type is unsubscribe
+Other event
+----------------------------------------
+Exception happened during processing of request from ('76.94.240.166', 41806)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('120.197.64.81', 40472)
+----------------------------------------
+verify for the wx
+<WSGIRequest: GET '/wx/?signature%3D535601ab329a4d7a6a57a1194a80e190343306aa%26timestamp%3D1564014390%26nonce%3D520051871%26openid%3Do18XxjgsHjSALU6jYCQnu7i22sb0'>
+{'_mutable': False, '_encoding': 'utf-8'}
+b''
+None None None None
+auto response
+data is  <QueryDict: {}> 
+data is  <xml><ToUserName><![CDATA[gh_07a2476758a1]]></ToUserName>
+<FromUserName><![CDATA[o18Xxjn8u75xmWrixOZ4Ohvf-lMo]]></FromUserName>
+<CreateTime>1564029504</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[https://n1.esurl.cn/kNbIbPc1HF
+https://n1.esurl.cn/Ig5UQMyZTZ
+https://n1.esurl.cn/gIviuxI5KT
+https://n1.esurl.cn/L9pSPJn6TA
+https://n1.esurl.cn/L9ZjGobMO0
+https://n1.esurl.cn/huG3h9ZJZk
+https://n1.esurl.cn/FcYMtm6d1d
+https://n1.esurl.cn/fOETXQriDD
+https://n1.esurl.cn/A9ptjOPPcP
+https://n1.esurl.cn/cDokZR590T
+https://n1.esurl.cn/CS9xqSbC9r
+https://n1.esurl.cn/M7vTlMyo4a
+https://n1.esurl.cn/dqo332ooBG
+https://n1.esurl.cn/TcDEVJT3i3
+https://n1.esurl.cn/Hm30Lph95C
+https://n1.esurl.cn/FtU3P2e51Y
+https://n1.esurl.cn/fqgxNgIf0e
+https://n1.esurl.cn/cHf7rsHKWg
+https://n1.esurl.cn/MKOYvlEO9j
+https://n1.esurl.cn/a4XUSwrCPM]]></Content>
+<MsgId>22391517323306049</MsgId>
+</xml> [25/Jul/2019 04:38:24] "POST /wx/?signature=56db7c7bdd9c78ac42e74e1bd8292fb0da99288c&timestamp=1564029504&nonce=596217505&openid=o18Xxjn8u75xmWrixOZ4Ohvf-lMo HTTP/1.1" 200 392
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/share/virtualenvs/wxKp-57JmCrvJ/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[25/Jul/2019 05:06:11] "POST /wx/?signature=24a9090ae1424fbe4ea1974bbce28731f5d94163&timestamp=1564031171&nonce=1756855380&openid=o18XxjkO-la2wv2IhvqFI7veenoo HTTP/1.1" 200 540
+[25/Jul/2019 05:11:42] "POST /wx/?signature=f4d05835bb048fd388923867bb8b91becd982813&timestamp=1564031502&nonce=344440371&openid=o18XxjkO-la2wv2IhvqFI7veenoo HTTP/1.1" 200 0
+[25/Jul/2019 05:11:52] "POST /wx/?signature=6c4aff2bd5d5b3742be086eee1957bdc4b97bdd1&timestamp=1564031512&nonce=938933032&openid=o18XxjkO-la2wv2IhvqFI7veenoo HTTP/1.1" 200 0
+Not Found: /
+[25/Jul/2019 05:15:51] "GET / HTTP/1.1" 404 2031
+[25/Jul/2019 05:19:39] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ò\x01\x00\x00Î\x03\x03J|²îr¿ä\x16óî\x93\x9d6Ð¥³]\x81Y(Ý\x13\x9bïÓ,Gã\x05o\x08Ì\x00\x00bÀ0À,À/À+\x00\x9f\x00\x9eÀ2À.À1À-\x00¥\x00¡\x00¤\x00')
+[25/Jul/2019 05:19:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: //a2billing/customer/templates/default/footer.tpl
+[25/Jul/2019 05:19:39] "GET //a2billing/customer/templates/default/footer.tpl HTTP/1.1" 404 2190
+[25/Jul/2019 05:21:21] "POST /wx/?signature=2d2ad65065c268f1d02989b68bd4dff745e412d9&timestamp=1564032081&nonce=1115769890&openid=o18XxjrtIwABz3uUlFLbkfTbWnok HTTP/1.1" 200 0
+[25/Jul/2019 05:21:42] "POST /wx/?signature=0d008240a13da0fa2bb7772a3ce266c4aeb9b543&timestamp=1564032102&nonce=1965992641&openid=o18Xxjv5vwWxPCuBPsfF46WczSqk HTTP/1.1" 200 0
+[25/Jul/2019 05:28:19] "POST /wx/?signature=c42cbb38d63e169f513c3edb573da29c4453d2f9&timestamp=1564032499&nonce=1325547102&openid=o18XxjgHjEGATT7O6QS9FCH9M7PY HTTP/1.1" 200 0

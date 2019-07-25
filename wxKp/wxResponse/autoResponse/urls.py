@@ -4,5 +4,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.verify, name='verify'),
+    #path('', views.verify, name='verify'),
+    path('', views.autoResponse , name='response'),
 ]
